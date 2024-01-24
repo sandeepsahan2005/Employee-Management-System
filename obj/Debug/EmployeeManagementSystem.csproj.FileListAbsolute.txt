@@ -28,3 +28,18 @@ C:\Users\LENOVO\Downloads\Employee-Management-System-in-CSharp-main\Employee-Man
 C:\Users\LENOVO\Downloads\Employee-Management-System-in-CSharp-main\Employee-Management-System-in-CSharp-main\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csproj.CoreCompileInputs.cache
 C:\Users\LENOVO\Downloads\Employee-Management-System-in-CSharp-main\Employee-Management-System-in-CSharp-main\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.exe
 C:\Users\LENOVO\Downloads\Employee-Management-System-in-CSharp-main\Employee-Management-System-in-CSharp-main\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.pdb
+C:\Users\LENOVO\Desktop\New folder\Employee-Management-System\bin\Debug\EmployeeManagementSystem.exe.config
+C:\Users\LENOVO\Desktop\New folder\Employee-Management-System\bin\Debug\EmployeeManagementSystem.exe
+C:\Users\LENOVO\Desktop\New folder\Employee-Management-System\bin\Debug\EmployeeManagementSystem.pdb
+C:\Users\LENOVO\Desktop\New folder\Employee-Management-System\obj\Debug\EmployeeManagementSystem.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\New folder\Employee-Management-System\obj\Debug\EmployeeManagementSystem.AddEmployee.resources
+C:\Users\LENOVO\Desktop\New folder\Employee-Management-System\obj\Debug\EmployeeManagementSystem.Dashboard.resources
+C:\Users\LENOVO\Desktop\New folder\Employee-Management-System\obj\Debug\EmployeeManagementSystem.Form1.resources
+C:\Users\LENOVO\Desktop\New folder\Employee-Management-System\obj\Debug\EmployeeManagementSystem.MainForm.resources
+C:\Users\LENOVO\Desktop\New folder\Employee-Management-System\obj\Debug\EmployeeManagementSystem.Properties.Resources.resources
+C:\Users\LENOVO\Desktop\New folder\Employee-Management-System\obj\Debug\EmployeeManagementSystem.RegisterForm.resources
+C:\Users\LENOVO\Desktop\New folder\Employee-Management-System\obj\Debug\EmployeeManagementSystem.Salary.resources
+C:\Users\LENOVO\Desktop\New folder\Employee-Management-System\obj\Debug\EmployeeManagementSystem.csproj.GenerateResource.cache
+C:\Users\LENOVO\Desktop\New folder\Employee-Management-System\obj\Debug\EmployeeManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\New folder\Employee-Management-System\obj\Debug\EmployeeManagementSystem.exe
+C:\Users\LENOVO\Desktop\New folder\Employee-Management-System\obj\Debug\EmployeeManagementSystem.pdb

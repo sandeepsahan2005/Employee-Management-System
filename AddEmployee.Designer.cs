@@ -29,7 +29,7 @@ namespace EmployeeManagementSystem
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
@@ -62,7 +62,7 @@ namespace EmployeeManagementSystem
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel1.BackColor = System.Drawing.Color.Teal;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.dataGridView1);
             this.panel1.Controls.Add(this.label1);
@@ -71,19 +71,22 @@ namespace EmployeeManagementSystem
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(839, 279);
             this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // dataGridView1
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.EnableHeadersVisualStyles = false;
             this.dataGridView1.Location = new System.Drawing.Point(22, 59);
@@ -97,10 +100,10 @@ namespace EmployeeManagementSystem
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(18, 21);
+            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(19, 17);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(148, 23);
+            this.label1.Size = new System.Drawing.Size(205, 28);
             this.label1.TabIndex = 2;
             this.label1.Text = "Employee\'s Data";
             // 
@@ -114,7 +117,7 @@ namespace EmployeeManagementSystem
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel3.BackColor = System.Drawing.Color.Teal;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.addEmployee_status);
             this.panel3.Controls.Add(this.label7);
@@ -147,7 +150,7 @@ namespace EmployeeManagementSystem
             this.addEmployee_status.Items.AddRange(new object[] {
             "Active",
             "Ianctive"});
-            this.addEmployee_status.Location = new System.Drawing.Point(422, 108);
+            this.addEmployee_status.Location = new System.Drawing.Point(447, 105);
             this.addEmployee_status.Name = "addEmployee_status";
             this.addEmployee_status.Size = new System.Drawing.Size(170, 23);
             this.addEmployee_status.TabIndex = 19;
@@ -155,24 +158,22 @@ namespace EmployeeManagementSystem
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(374, 108);
+            this.label7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(386, 108);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(44, 15);
+            this.label7.Size = new System.Drawing.Size(53, 15);
             this.label7.TabIndex = 18;
             this.label7.Text = "Status:";
             // 
             // addEmployee_clearBtn
             // 
-            this.addEmployee_clearBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
+            this.addEmployee_clearBtn.BackColor = System.Drawing.Color.Lime;
             this.addEmployee_clearBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.addEmployee_clearBtn.FlatAppearance.BorderSize = 0;
             this.addEmployee_clearBtn.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
-            this.addEmployee_clearBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
-            this.addEmployee_clearBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.addEmployee_clearBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addEmployee_clearBtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addEmployee_clearBtn.ForeColor = System.Drawing.Color.White;
+            this.addEmployee_clearBtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addEmployee_clearBtn.ForeColor = System.Drawing.Color.Black;
             this.addEmployee_clearBtn.Location = new System.Drawing.Point(591, 163);
             this.addEmployee_clearBtn.Name = "addEmployee_clearBtn";
             this.addEmployee_clearBtn.Size = new System.Drawing.Size(113, 37);
@@ -183,15 +184,13 @@ namespace EmployeeManagementSystem
             // 
             // addEmployee_deleteBtn
             // 
-            this.addEmployee_deleteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
+            this.addEmployee_deleteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.addEmployee_deleteBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.addEmployee_deleteBtn.FlatAppearance.BorderSize = 0;
             this.addEmployee_deleteBtn.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
-            this.addEmployee_deleteBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
-            this.addEmployee_deleteBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.addEmployee_deleteBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addEmployee_deleteBtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addEmployee_deleteBtn.ForeColor = System.Drawing.Color.White;
+            this.addEmployee_deleteBtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addEmployee_deleteBtn.ForeColor = System.Drawing.Color.Black;
             this.addEmployee_deleteBtn.Location = new System.Drawing.Point(461, 163);
             this.addEmployee_deleteBtn.Name = "addEmployee_deleteBtn";
             this.addEmployee_deleteBtn.Size = new System.Drawing.Size(113, 37);
@@ -202,15 +201,13 @@ namespace EmployeeManagementSystem
             // 
             // addEmployee_updateBtn
             // 
-            this.addEmployee_updateBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
+            this.addEmployee_updateBtn.BackColor = System.Drawing.Color.Lime;
             this.addEmployee_updateBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.addEmployee_updateBtn.FlatAppearance.BorderSize = 0;
             this.addEmployee_updateBtn.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
-            this.addEmployee_updateBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
-            this.addEmployee_updateBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.addEmployee_updateBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addEmployee_updateBtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addEmployee_updateBtn.ForeColor = System.Drawing.Color.White;
+            this.addEmployee_updateBtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addEmployee_updateBtn.ForeColor = System.Drawing.Color.Black;
             this.addEmployee_updateBtn.Location = new System.Drawing.Point(312, 163);
             this.addEmployee_updateBtn.Name = "addEmployee_updateBtn";
             this.addEmployee_updateBtn.Size = new System.Drawing.Size(113, 37);
@@ -221,15 +218,13 @@ namespace EmployeeManagementSystem
             // 
             // addEmployee_addBtn
             // 
-            this.addEmployee_addBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
+            this.addEmployee_addBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.addEmployee_addBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.addEmployee_addBtn.FlatAppearance.BorderSize = 0;
             this.addEmployee_addBtn.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
-            this.addEmployee_addBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
-            this.addEmployee_addBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.addEmployee_addBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addEmployee_addBtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addEmployee_addBtn.ForeColor = System.Drawing.Color.White;
+            this.addEmployee_addBtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addEmployee_addBtn.ForeColor = System.Drawing.Color.Black;
             this.addEmployee_addBtn.Location = new System.Drawing.Point(182, 163);
             this.addEmployee_addBtn.Name = "addEmployee_addBtn";
             this.addEmployee_addBtn.Size = new System.Drawing.Size(113, 37);
@@ -240,15 +235,13 @@ namespace EmployeeManagementSystem
             // 
             // addEmployee_importBtn
             // 
-            this.addEmployee_importBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
+            this.addEmployee_importBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.addEmployee_importBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.addEmployee_importBtn.FlatAppearance.BorderSize = 0;
-            this.addEmployee_importBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
-            this.addEmployee_importBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.addEmployee_importBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addEmployee_importBtn.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addEmployee_importBtn.ForeColor = System.Drawing.Color.White;
-            this.addEmployee_importBtn.Location = new System.Drawing.Point(737, 126);
+            this.addEmployee_importBtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addEmployee_importBtn.ForeColor = System.Drawing.Color.Transparent;
+            this.addEmployee_importBtn.Location = new System.Drawing.Point(739, 130);
             this.addEmployee_importBtn.Name = "addEmployee_importBtn";
             this.addEmployee_importBtn.Size = new System.Drawing.Size(82, 23);
             this.addEmployee_importBtn.TabIndex = 13;
@@ -258,8 +251,7 @@ namespace EmployeeManagementSystem
             // 
             // addEmployee_picture
             // 
-            this.addEmployee_picture.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.addEmployee_picture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.addEmployee_picture.BackColor = System.Drawing.SystemColors.Control;
             this.addEmployee_picture.Location = new System.Drawing.Point(738, 34);
             this.addEmployee_picture.Name = "addEmployee_picture";
             this.addEmployee_picture.Size = new System.Drawing.Size(82, 92);
@@ -277,7 +269,7 @@ namespace EmployeeManagementSystem
             "Back-End Developer",
             "Data Administrator",
             "UI/UX Design"});
-            this.addEmployee_position.Location = new System.Drawing.Point(422, 69);
+            this.addEmployee_position.Location = new System.Drawing.Point(447, 65);
             this.addEmployee_position.Name = "addEmployee_position";
             this.addEmployee_position.Size = new System.Drawing.Size(170, 23);
             this.addEmployee_position.TabIndex = 11;
@@ -285,17 +277,17 @@ namespace EmployeeManagementSystem
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(364, 69);
+            this.label6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(376, 69);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(54, 15);
+            this.label6.Size = new System.Drawing.Size(64, 15);
             this.label6.TabIndex = 10;
             this.label6.Text = "Position:";
             // 
             // addEmployee_phoneNum
             // 
             this.addEmployee_phoneNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addEmployee_phoneNum.Location = new System.Drawing.Point(422, 34);
+            this.addEmployee_phoneNum.Location = new System.Drawing.Point(447, 33);
             this.addEmployee_phoneNum.Name = "addEmployee_phoneNum";
             this.addEmployee_phoneNum.Size = new System.Drawing.Size(152, 21);
             this.addEmployee_phoneNum.TabIndex = 9;
@@ -303,10 +295,10 @@ namespace EmployeeManagementSystem
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(322, 34);
+            this.label5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(334, 34);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(94, 15);
+            this.label5.Size = new System.Drawing.Size(107, 15);
             this.label5.TabIndex = 8;
             this.label5.Text = "Phone Number:";
             // 
@@ -318,7 +310,7 @@ namespace EmployeeManagementSystem
             "Male",
             "Female",
             "Others"});
-            this.addEmployee_gender.Location = new System.Drawing.Point(125, 111);
+            this.addEmployee_gender.Location = new System.Drawing.Point(125, 112);
             this.addEmployee_gender.Name = "addEmployee_gender";
             this.addEmployee_gender.Size = new System.Drawing.Size(170, 23);
             this.addEmployee_gender.TabIndex = 7;
@@ -326,17 +318,17 @@ namespace EmployeeManagementSystem
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(67, 111);
+            this.label4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(60, 113);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(51, 15);
+            this.label4.Size = new System.Drawing.Size(59, 15);
             this.label4.TabIndex = 6;
             this.label4.Text = "Gender:";
             // 
             // addEmployee_fullName
             // 
             this.addEmployee_fullName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addEmployee_fullName.Location = new System.Drawing.Point(125, 75);
+            this.addEmployee_fullName.Location = new System.Drawing.Point(125, 78);
             this.addEmployee_fullName.Name = "addEmployee_fullName";
             this.addEmployee_fullName.Size = new System.Drawing.Size(170, 21);
             this.addEmployee_fullName.TabIndex = 5;
@@ -344,17 +336,17 @@ namespace EmployeeManagementSystem
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(51, 75);
+            this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(43, 79);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 15);
+            this.label3.Size = new System.Drawing.Size(76, 15);
             this.label3.TabIndex = 4;
             this.label3.Text = "Full Name:";
             // 
             // addEmployee_id
             // 
             this.addEmployee_id.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addEmployee_id.Location = new System.Drawing.Point(125, 35);
+            this.addEmployee_id.Location = new System.Drawing.Point(125, 37);
             this.addEmployee_id.Name = "addEmployee_id";
             this.addEmployee_id.Size = new System.Drawing.Size(134, 21);
             this.addEmployee_id.TabIndex = 3;
@@ -362,10 +354,10 @@ namespace EmployeeManagementSystem
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(38, 35);
+            this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(27, 37);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 15);
+            this.label2.Size = new System.Drawing.Size(92, 15);
             this.label2.TabIndex = 2;
             this.label2.Text = "Employee ID:";
             // 

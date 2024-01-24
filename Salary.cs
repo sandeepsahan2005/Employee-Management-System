@@ -140,5 +140,10 @@ namespace EmployeeManagementSystem
         {
             clearFields();
         }
+
+        private void Salary_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

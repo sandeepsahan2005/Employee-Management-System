@@ -37,21 +37,19 @@
             this.label2 = new System.Windows.Forms.Label();
             this.exit = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.signup_loginBtn = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // signup_btn
             // 
-            this.signup_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
+            this.signup_btn.BackColor = System.Drawing.Color.Teal;
             this.signup_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.signup_btn.FlatAppearance.BorderSize = 0;
-            this.signup_btn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
-            this.signup_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.signup_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.signup_btn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.signup_btn.ForeColor = System.Drawing.Color.White;
@@ -66,10 +64,10 @@
             // signup_showPass
             // 
             this.signup_showPass.AutoSize = true;
-            this.signup_showPass.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.signup_showPass.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.signup_showPass.Location = new System.Drawing.Point(443, 253);
             this.signup_showPass.Name = "signup_showPass";
-            this.signup_showPass.Size = new System.Drawing.Size(112, 18);
+            this.signup_showPass.Size = new System.Drawing.Size(120, 18);
             this.signup_showPass.TabIndex = 16;
             this.signup_showPass.Text = "Show Password";
             this.signup_showPass.UseVisualStyleBackColor = true;
@@ -88,10 +86,10 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(291, 197);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(68, 16);
+            this.label4.Size = new System.Drawing.Size(75, 15);
             this.label4.TabIndex = 14;
             this.label4.Text = "Password:";
             // 
@@ -107,10 +105,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(291, 133);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(71, 16);
+            this.label3.Size = new System.Drawing.Size(78, 15);
             this.label3.TabIndex = 12;
             this.label3.Text = "Username:";
             // 
@@ -138,7 +136,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
+            this.panel1.BackColor = System.Drawing.Color.Teal;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label6);
@@ -150,36 +148,25 @@
             this.panel1.Size = new System.Drawing.Size(267, 400);
             this.panel1.TabIndex = 9;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::EmployeeManagementSystem.Properties.Resources.icons8_employee_card_100px;
-            this.pictureBox1.Location = new System.Drawing.Point(79, 59);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(19, 175);
+            this.label6.Location = new System.Drawing.Point(3, 176);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(229, 19);
+            this.label6.Size = new System.Drawing.Size(256, 18);
             this.label6.TabIndex = 2;
             this.label6.Text = "Employee Management System";
             // 
             // signup_loginBtn
             // 
-            this.signup_loginBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
+            this.signup_loginBtn.BackColor = System.Drawing.Color.White;
             this.signup_loginBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.signup_loginBtn.FlatAppearance.BorderSize = 0;
-            this.signup_loginBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Purple;
-            this.signup_loginBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Purple;
             this.signup_loginBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.signup_loginBtn.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.signup_loginBtn.ForeColor = System.Drawing.Color.White;
+            this.signup_loginBtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.signup_loginBtn.ForeColor = System.Drawing.Color.Black;
             this.signup_loginBtn.Location = new System.Drawing.Point(22, 356);
             this.signup_loginBtn.Name = "signup_loginBtn";
             this.signup_loginBtn.Size = new System.Drawing.Size(226, 31);
@@ -191,13 +178,23 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(81, 332);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(114, 14);
+            this.label5.Size = new System.Drawing.Size(119, 14);
             this.label5.TabIndex = 0;
             this.label5.Text = "Login your Account";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::EmployeeManagementSystem.Properties.Resources.corporate_id_card_design_flat_style_vector_225064302;
+            this.pictureBox1.Location = new System.Drawing.Point(79, 59);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
             // 
             // RegisterForm
             // 

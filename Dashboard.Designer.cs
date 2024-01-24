@@ -57,7 +57,7 @@ namespace EmployeeManagementSystem
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel1.BackColor = System.Drawing.Color.DarkSlateGray;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.panel5);
             this.panel1.Controls.Add(this.panel4);
@@ -69,7 +69,7 @@ namespace EmployeeManagementSystem
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
+            this.panel5.BackColor = System.Drawing.Color.Teal;
             this.panel5.Controls.Add(this.dashboard_IE);
             this.panel5.Controls.Add(this.label6);
             this.panel5.Controls.Add(this.pictureBox3);
@@ -92,17 +92,17 @@ namespace EmployeeManagementSystem
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.label6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(90, 86);
+            this.label6.Location = new System.Drawing.Point(86, 86);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(135, 18);
+            this.label6.Size = new System.Drawing.Size(149, 17);
             this.label6.TabIndex = 5;
             this.label6.Text = "Inactive Employees";
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
+            this.panel4.BackColor = System.Drawing.Color.Teal;
             this.panel4.Controls.Add(this.dashboard_AE);
             this.panel4.Controls.Add(this.label4);
             this.panel4.Controls.Add(this.pictureBox2);
@@ -125,17 +125,17 @@ namespace EmployeeManagementSystem
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(91, 86);
+            this.label4.Location = new System.Drawing.Point(84, 86);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(133, 19);
+            this.label4.Size = new System.Drawing.Size(150, 18);
             this.label4.TabIndex = 3;
             this.label4.Text = "Active Employees";
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
+            this.panel3.BackColor = System.Drawing.Color.Teal;
             this.panel3.Controls.Add(this.dashboard_TE);
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.pictureBox1);
@@ -158,11 +158,11 @@ namespace EmployeeManagementSystem
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(93, 86);
+            this.label1.Location = new System.Drawing.Point(94, 86);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(126, 19);
+            this.label1.Size = new System.Drawing.Size(139, 18);
             this.label1.TabIndex = 1;
             this.label1.Text = "Total Employees";
             // 
@@ -179,7 +179,7 @@ namespace EmployeeManagementSystem
             // pictureBox4
             // 
             this.pictureBox4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox4.Image = global::EmployeeManagementSystem.Properties.Resources.pexels_jane_doan_1024248;
+            this.pictureBox4.Image = global::EmployeeManagementSystem.Properties.Resources.th;
             this.pictureBox4.Location = new System.Drawing.Point(0, 0);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(842, 322);
@@ -189,28 +189,31 @@ namespace EmployeeManagementSystem
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::EmployeeManagementSystem.Properties.Resources.icons8_group_background_selected_60px;
+            this.pictureBox3.Image = global::EmployeeManagementSystem.Properties.Resources._294786;
             this.pictureBox3.Location = new System.Drawing.Point(20, 27);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(60, 60);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::EmployeeManagementSystem.Properties.Resources.icons8_group_background_selected_filled_60px;
+            this.pictureBox2.Image = global::EmployeeManagementSystem.Properties.Resources.R__1_;
             this.pictureBox2.Location = new System.Drawing.Point(16, 27);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(60, 60);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::EmployeeManagementSystem.Properties.Resources.icons8_employee_card_60px_1;
+            this.pictureBox1.Image = global::EmployeeManagementSystem.Properties.Resources._2462001;
             this.pictureBox1.Location = new System.Drawing.Point(18, 27);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(60, 60);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -218,10 +221,12 @@ namespace EmployeeManagementSystem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "Dashboard";
             this.Size = new System.Drawing.Size(875, 565);
+            this.Load += new System.EventHandler(this.Dashboard_Load);
             this.panel1.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();

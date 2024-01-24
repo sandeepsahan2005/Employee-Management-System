@@ -79,10 +79,10 @@ namespace EmployeeManagementSystem
             }
 
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
-
-
-// THATS IT FOR THIS VIDEO, THANKS FOR WATCHING!
-// SUBSCRIBE FOR MORE C# PROJECT TUTORIALS
-// THANKS : ) 

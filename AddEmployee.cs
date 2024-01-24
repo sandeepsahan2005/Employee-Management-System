@@ -22,7 +22,7 @@ namespace EmployeeManagementSystem
         {
             InitializeComponent();
 
-            // TO DISPLAY THE DATA FROM DATABASE TO YOUR DATA GRID VIEW
+           
             displayEmployeeData();
         }
 
@@ -327,6 +327,11 @@ namespace EmployeeManagementSystem
                 }
 
             }
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
